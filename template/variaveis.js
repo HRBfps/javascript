@@ -15,10 +15,27 @@ console.log(typeof numeroFlutuante)
 console.log(typeof condicao)
 */
 
-let soma1 = prompt("Numerozinho: ")
-let soma2 = prompt("Digita ai rei: ")
-
-let soma = soma1 + soma2
+//let soma1 = prompt("Numerozinho: ")
+//let soma2 = prompt("Digita ai rei: ")
+//let soma = soma1 + soma2
 
 //console.log(soma)
-document.write(soma)
+//document.write(soma)
+let quantidade = prompt("quantidade de porções(100g) de jabuticaba")
+
+let energ = document.querySelector('.energ')
+let carbo = document.querySelector('.carbo')
+let prote = document.querySelector('.prote')
+let gT = document.querySelector('.gT')
+let fibr = document.querySelector('.fibr')
+let vitC = document.querySelector('.vitC')
+let mag = document.querySelector('.mag')
+
+energ.innerHTML = "Energia: "+ quantidade*58 +" Kcal",
+carbo.innerHTML = "Carboidratos: "+quantidade*15.3+" g",
+prote.innerHTML = "Proteinas: "+quantidade*0.6 + " g",
+gT.innerHTML = "Gorduras totais: "+quantidade*0.1 + " g",
+fibr.innerHTML = "Fibras: "+quantidade*2.3 + " g",
+vitC.innerHTML = "Vitamina C: "+quantidade*16.2 + " mg",
+mag.innerHTML = "Magnésio: "+quantidade*18.0 + " mg"
+
