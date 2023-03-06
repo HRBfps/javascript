@@ -4,8 +4,8 @@
 }
 
 .todo {
-    width: 1920px;
-    height: 920px;
+    width: 100vw;
+    height: 100vh;
     background-color: antiquewhite;
     display: flex;
     justify-content: center;
