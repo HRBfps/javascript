@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 80%;
+    margin: 0 auto;
+}
+footer, header {
+    background-color: rgb(75, 99, 99);
+    display: block;
+    font-size: 30px;
+}
+nav a {
+    color: black;
+
+}
+
+.sec1 {
+
+}
+.sec2 {
+    height: fit-content;
+    width: min-content;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+main {
+    display: inline;
+}
+
+footer {
+    text-align: center  ;
+    width: 80%;
+    position: fixed;
+    bottom: 0;
+}

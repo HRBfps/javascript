@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Henrique Rodrigues Barbosa">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="./images/logo" alt="Icone/Logo" title="Logo">
+        </figure>
+        
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+    </nav>
+    <main>
+        <section class="sec1">
+            Titulo
+        </section>
+
+        <section class="sec2">
+            <form>
+                Numero1:
+                <input type="number" id="n1" name="n1" placeholder="Escreva um Número" required>
+
+                Numero2:
+                <input type="number" id="n2" name="n2" placeholder="Escreva um Número" required>
+
+                <input type="button" id="btn1" value="Somar" onclick="soma();">
+                <input type="button" id="btn2" value="Subtrair" onclick="sub();">
+                <input type="button" id="btn3" value="Multiplicar" onclick="mult();">
+                <input type="button" id="btn4" value="Dividir" onclick="div();">
+                
+                Resultado:
+                <input type="text" id="resultado" name="resultado">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>otaldohrb &copy</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
