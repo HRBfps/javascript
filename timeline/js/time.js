@@ -20,7 +20,7 @@ function newIdade2() {
 // Função que carrega uma imagem definida pelo usuário, trata a resolução da mesma e
 // insere no contexto da página
 function carregaNovo() {
-    let url = 'images/';
+    let url = 'images/novo.jpeg';
 
     let img = new Image(250,250);
     img.src = url;    
@@ -29,7 +29,7 @@ function carregaNovo() {
 }
 //Função que carrega uma imagem definida pelo usuário, trata a resolução da mesma e insere na página
 function carregaMedio() {
-    let url = 'images/';
+    let url = 'images/medio.jpeg';
 
     let img = new Image(250,250);
     img.src = url;    
@@ -40,7 +40,7 @@ function carregaMedio() {
 // Função que carrega uma imagem definida pelo usuário, trata a resolução da mesma e
 // insere no contexto da página
 function carregaIdoso() {
-    let url = 'images/';
+    let url = 'images/old.jpeg';
 
     let img = new Image(250,250);
     img.src = url;    
