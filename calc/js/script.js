@@ -11,7 +11,7 @@ function sub() {
     let x = parseInt(document.getElementById('n1').value)
     let y = parseInt(document.getElementById('n2').value)
 
-    return document.getElementsById('resultado').value = x-y
+    return document.getElementById('resultado').value = x-y
 }
 
 function div() {
